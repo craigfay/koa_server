@@ -27,4 +27,4 @@ function afterStart() {
 }
 
 // Start listening for http requests
-app.listen(5000, afterStart);
+app.listen(port, afterStart);
