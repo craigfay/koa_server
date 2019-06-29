@@ -1,3 +1,9 @@
+/**
+ * This file describes the how our webserver should behave,
+ * and starts things running.
+ * 
+ */
+
 // Dependencies
 const Koa = require('koa');
 const static = require('koa-static');
