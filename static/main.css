@@ -1,0 +1,58 @@
+* {
+  font-family: 'DM Serif Display', serif;
+  color: #444444;
+}
+
+body {
+  margin: 0;
+  display: flex;
+}
+
+.content {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #dddddd;
+  margin: 40px 0 0 0;
+  padding: 40px;
+  border-radius: 4px;
+}
+
+  p {
+  color: #888888;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+button, input {
+  font-size: 18px;
+  border: 1px solid #dddddd; 
+  padding: 20px;
+  border-radius: 60px;
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+button:focus, input:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #888888;
+}
