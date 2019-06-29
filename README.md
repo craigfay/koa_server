@@ -1,5 +1,12 @@
 ## How to create this project
 
+### Prerequisite
+* Have [node], [npm], and [git] installed.
+* You can test whether you have them like so:
+  * `node --version`
+  * `npm --version`
+  * `git --version`
+
 ### Setup
 * Make a new folder: `mkdir koa_server`
 * Navigate into the folder: `cd koa_server`
