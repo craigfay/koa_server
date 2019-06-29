@@ -1,7 +1,10 @@
-## How to create this project
+# About
+This is an educational demo of a basic full stack application using Node and [Koa](https://koajs.com/)
+
+## How to create this project yourself
 
 ### Prerequisite
-* Have [node], [npm], and [git] installed.
+* Have [node](https://nodejs.org/en/), [npm](https://www.npmjs.com/get-npm), and [git](https://git-scm.com/downloads) installed.
 * You can test whether you have them like so:
   * `node --version`
   * `npm --version`
