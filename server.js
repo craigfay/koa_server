@@ -7,7 +7,7 @@
 // Dependencies
 const Koa = require('koa');
 const static = require('koa-static');
-const routes = require('routes.js');
+const router = require('./routes.js');
 
 // Define the http server 
 const app = new Koa();
